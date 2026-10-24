@@ -1,0 +1,160 @@
+<svg width="1800" height="1200" viewBox="0 0 1800 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Python Class and Object Infographic</title>
+  <desc id="desc">An educational and memorable infographic explaining classes and objects in Python with examples, real-life analogies, and visual summaries.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0d1321"/>
+      <stop offset="40%" stop-color="#1a2942"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1d3557"/>
+      <stop offset="100%" stop-color="#12263f"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#7ef9d6"/>
+      <stop offset="100%" stop-color="#48d1cc"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#ff9f1c"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#ff8fab"/>
+      <stop offset="100%" stop-color="#e76f51"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#c7b9ff"/>
+      <stop offset="100%" stop-color="#7b61ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+    <style>
+      .title { font: 800 52px 'Segoe UI', Arial, sans-serif; fill: #f5f7ff; }
+      .subtitle { font: 600 24px 'Segoe UI', Arial, sans-serif; fill: #dfe9ff; letter-spacing: 1px; }
+      .heading { font: 700 30px 'Segoe UI', Arial, sans-serif; fill: #ebf7ff; }
+      .body { font: 500 26px 'Segoe UI', Arial, sans-serif; fill: #dfe9ff; }
+      .small { font: 600 20px 'Segoe UI', Arial, sans-serif; fill: #dfe9ff; }
+      .code { font: 600 24px 'Consolas', 'Courier New', monospace; fill: #d7f9ff; }
+      .tag { font: 700 22px 'Segoe UI', Arial, sans-serif; fill: #07121d; }
+      .pill { font: 700 22px 'Segoe UI', Arial, sans-serif; fill: #fff; }
+      .tiny { font: 600 18px 'Segoe UI', Arial, sans-serif; fill: #dce8ff; }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1200" fill="url(#bg)"/>
+
+  <circle cx="160" cy="135" r="130" fill="#7ef9d6" opacity="0.08"/>
+  <circle cx="1680" cy="210" r="160" fill="#7b61ff" opacity="0.10"/>
+  <circle cx="1750" cy="1020" r="180" fill="#ff9f1c" opacity="0.10"/>
+
+  <text x="90" y="110" class="title">Python Classes &amp; Objects</text>
+  <text x="90" y="146" class="subtitle">Blueprints + Real-world instances = smarter code</text>
+
+  <g transform="translate(90 210)" filter="url(#shadow)">
+    <rect width="760" height="760" rx="30" fill="url(#panel)" stroke="#456ea7" stroke-width="2"/>
+
+    <rect x="30" y="30" width="700" height="250" rx="22" fill="#0f1f35" stroke="#7ef9d6" stroke-width="2"/>
+    <text x="55" y="78" class="heading">Class = Blueprint</text>
+    <text x="55" y="118" class="body">A class defines:</text>
+
+    <g transform="translate(55 145)">
+      <rect x="0" y="0" width="210" height="97" rx="18" fill="url(#mint)"/>
+      <text x="105" y="45" text-anchor="middle" class="tag">Attributes</text>
+      <text x="105" y="72" text-anchor="middle" class="small">color, brand, year</text>
+    </g>
+
+    <g transform="translate(285 145)">
+      <rect x="0" y="0" width="210" height="97" rx="18" fill="url(#gold)"/>
+      <text x="105" y="45" text-anchor="middle" class="tag">Methods</text>
+      <text x="105" y="72" text-anchor="middle" class="small">start(), drive()</text>
+    </g>
+
+    <g transform="translate(515 145)">
+      <rect x="0" y="0" width="150" height="97" rx="18" fill="url(#pink)"/>
+      <text x="75" y="45" text-anchor="middle" class="tag">self</text>
+      <text x="75" y="72" text-anchor="middle" class="small">current object</text>
+    </g>
+
+    <text x="55" y="420" class="heading">Example</text>
+    <g transform="translate(55 445)">
+      <rect width="650" height="240" rx="20" fill="#091a2f" stroke="#2c4d7c" stroke-width="2"/>
+      <text x="25" y="42" class="code">class Car:</text>
+      <text x="25" y="82" class="code">    def __init__(self, brand, year):</text>
+      <text x="25" y="122" class="code">        self.brand = brand</text>
+      <text x="25" y="162" class="code">        self.year = year</text>
+      <text x="25" y="202" class="code">    def drive(self):</text>
+      <text x="25" y="242" class="code">        print(f&quot;{self.brand} is moving&quot;)</text>
+    </g>
+  </g>
+
+  <g transform="translate(930 210)" filter="url(#shadow)">
+    <rect width="780" height="760" rx="30" fill="url(#panel)" stroke="#456ea7" stroke-width="2"/>
+
+    <text x="40" y="80" class="heading">Object = Instance</text>
+    <text x="40" y="120" class="body">An object is a real, usable version of the class.</text>
+
+    <g transform="translate(40 165)">
+      <rect width="700" height="180" rx="24" fill="#0f1f35" stroke="#7b61ff" stroke-width="2"/>
+      <text x="40" y="52" class="small" fill="#cfc3ff">Think of it like this:</text>
+      <text x="40" y="96" class="body">Class = Recipe</text>
+      <text x="40" y="132" class="body">Object = Cake made from that recipe</text>
+      <text x="40" y="168" class="small" fill="#dfe9ff">Each object keeps its own data, independent from others.</text>
+    </g>
+
+    <g transform="translate(40 385)">
+      <rect x="0" y="0" width="300" height="220" rx="22" fill="#0b1e33" stroke="#48d1cc" stroke-width="2"/>
+      <text x="150" y="42" text-anchor="middle" class="heading">car1</text>
+      <text x="150" y="88" text-anchor="middle" class="body">brand = &quot;BMW&quot;</text>
+      <text x="150" y="130" text-anchor="middle" class="body">year = 2025</text>
+      <text x="150" y="174" text-anchor="middle" class="small">car1.drive()</text>
+    </g>
+
+    <g transform="translate(360 385)">
+      <rect x="0" y="0" width="300" height="220" rx="22" fill="#0b1e33" stroke="#ffd166" stroke-width="2"/>
+      <text x="150" y="42" text-anchor="middle" class="heading">car2</text>
+      <text x="150" y="88" text-anchor="middle" class="body">brand = &quot;Tesla&quot;</text>
+      <text x="150" y="130" text-anchor="middle" class="body">year = 2024</text>
+      <text x="150" y="174" text-anchor="middle" class="small">car2.drive()</text>
+    </g>
+
+    <g transform="translate(40 640)">
+      <rect width="620" height="76" rx="18" fill="url(#violet)"/>
+      <text x="310" y="48" text-anchor="middle" class="pill">car1 = Car(&quot;BMW&quot;, 2025)</text>
+    </g>
+  </g>
+
+  <g transform="translate(90 990)">
+    <rect width="1620" height="150" rx="26" fill="#111d32" stroke="#3d6aa6" stroke-width="2"/>
+
+    <text x="40" y="55" class="heading">Quick Memory Tricks</text>
+
+    <g transform="translate(40 80)">
+      <rect width="400" height="38" rx="18" fill="#0c2038" stroke="#7ef9d6" stroke-width="2"/>
+      <text x="200" y="26" text-anchor="middle" class="small">Class = Template</text>
+    </g>
+
+    <g transform="translate(470 80)">
+      <rect width="400" height="38" rx="18" fill="#0c2038" stroke="#ffd166" stroke-width="2"/>
+      <text x="200" y="26" text-anchor="middle" class="small">Object = Real thing</text>
+    </g>
+
+    <g transform="translate(900 80)">
+      <rect width="650" height="38" rx="18" fill="#0c2038" stroke="#ff8fab" stroke-width="2"/>
+      <text x="325" y="26" text-anchor="middle" class="small">A class describes; an object uses the description</text>
+    </g>
+  </g>
+
+  <g transform="translate(820 740)">
+    <path d="M 0 90 L 34 90 L 34 0 L 86 0" stroke="#7ef9d6" stroke-width="3" fill="none"/>
+    <path d="M 0 90 L 34 90 L 34 180 L 86 180" stroke="#ffd166" stroke-width="3" fill="none"/>
+    <circle cx="0" cy="90" r="8" fill="#7ef9d6"/>
+    <circle cx="86" cy="0" r="8" fill="#7ef9d6"/>
+    <circle cx="86" cy="180" r="8" fill="#ffd166"/>
+    <text x="110" y="8" class="tiny">class Car</text>
+    <text x="110" y="188" class="tiny">object instance</text>
+    <text x="110" y="98" class="tiny">shared blueprint</text>
+  </g>
+</svg>

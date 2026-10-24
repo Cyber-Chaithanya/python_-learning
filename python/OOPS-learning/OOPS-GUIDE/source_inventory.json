@@ -1,0 +1,97 @@
+{
+  "project_root": "C:\\Users\\abhir\\Desktop\\python learning\\OOPS-learning",
+  "generated_at_utc": "2026-10-24T13:58:46.638840+00:00",
+  "deliverable": "C:\\Users\\abhir\\Desktop\\python learning\\OOPS-learning\\Python_OOP_All_In_One_Complete_Guide.docx",
+  "files_discovered_at_initial_inspection": [
+    {
+      "path": "class-2.py",
+      "type": "Python source",
+      "bytes": 249,
+      "sha256": "47514ba403d78b1c76cc506f0525da19ace59823f1175c328a7ae14d50d32a20",
+      "inspected": true,
+      "incorporated": true,
+      "incorporation": "Verbatim source listing, captured actual output, explanation, and corrected teaching example."
+    },
+    {
+      "path": "class-3.py",
+      "type": "Python source",
+      "bytes": 352,
+      "sha256": "c4689aa6858566cd3b447556f53413a1a6774cdb48dad4b590388d279a6c6836",
+      "inspected": true,
+      "incorporated": true,
+      "incorporation": "Verbatim source listing, captured actual output, explanation, and corrected teaching example."
+    },
+    {
+      "path": "class-4.py",
+      "type": "Python source",
+      "bytes": 514,
+      "sha256": "e3ec5057a6d5d4323fc3fdd273e031f3be8017f303d876df5f4c421a4c9d7329",
+      "inspected": true,
+      "incorporated": true,
+      "incorporation": "Verbatim source listing, captured actual output, explanation, and corrected teaching example."
+    },
+    {
+      "path": "class-5.py",
+      "type": "Python source",
+      "bytes": 680,
+      "sha256": "64b660bc4f09ec67a85184e88f79366a5c9bbb7caae66c0d418e7f67c62011dc",
+      "inspected": true,
+      "incorporated": true,
+      "incorporation": "Verbatim source listing, captured actual output, explanation, and corrected teaching example."
+    },
+    {
+      "path": "class_1.py",
+      "type": "Python source",
+      "bytes": 259,
+      "sha256": "22fdc46bd9858fc0973a6d01e0f086479f3c233e6e692402f9c7e0a8abdaaa87",
+      "inspected": true,
+      "incorporated": true,
+      "incorporation": "Verbatim source listing, captured actual output, explanation, and corrected teaching example."
+    },
+    {
+      "path": "python_class_object_infographic.svg",
+      "type": "SVG infographic",
+      "bytes": 8432,
+      "sha256": "ec2099e3c0473463c4720eaa9cc1e20306766b193f8d084134c546ca83b825af",
+      "inspected": true,
+      "incorporated": true,
+      "incorporation": "Rendered to PNG and embedded; cited in infographic appendix."
+    }
+  ],
+  "file_count": 6,
+  "inspection_failures": [],
+  "supplemental_curriculum": {
+    "source": "C:\\Users\\abhir\\Desktop\\python learning\\scripts\\generate_oop_book.py",
+    "note": "The complete 23-chapter beginner-to-intermediate curriculum was reused as supplemental editorial material. This generator is outside OOPS-learning and is not counted among the original project-folder inputs."
+  },
+  "new_material_added": [
+    "Verbatim source listings and captured output for the five original Python lessons.",
+    "Accuracy notes distinguishing class attributes from instance attributes, self convention, and __init__ initialization.",
+    "Improved Student and Car examples based on original project topics, with executed outputs.",
+    "Rendered original SVG infographic embedded in the DOCX.",
+    "Source crosswalk and this auditable manifest."
+  ],
+  "validation": {
+    "docx_exists": true,
+    "docx_bytes": 1650299,
+    "reopened_with_python_docx": true,
+    "zip_integrity": true,
+    "paragraphs": 1717,
+    "tables": 346,
+    "embedded_image_instances": 28,
+    "unique_embedded_media": 20,
+    "word_count": 22995,
+    "chapter_headings_present": 23,
+    "original_files_incorporated": 6,
+    "original_svg_embedded": true,
+    "toc_field_present": true,
+    "placeholder_scan": "passed",
+    "visual_pdf_rendering": "unavailable: no Word/LibreOffice executable detected",
+    "existing_guide_examples_executed_and_output_checked": 93,
+    "project_behavior_validation_suites_passed": 5,
+    "original_python_files_executed": 5,
+    "original_svg_xml_parsed_and_browser_rendered": 1,
+    "all_discovered_input_sha256_recorded": true,
+    "pdf_rendering_available": false
+  }
+}
